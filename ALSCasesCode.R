@@ -60,7 +60,7 @@ ALSCases(c('LY', 'US', 'UY', 'CH', 'IR', 'JA', 'TW', 'RI', 'NZ'), c(2015, 2040),
 #This will output "maleprev.csv" containing the age-specific male prevalence rates by country, and "MaleCases.csv" containing the number of male cases by country, year and age group to the working directory.
 
 #Run the R code for females as follows:
-ALSCases(c('LY', 'US', 'UY', 'CH', 'IR', 'JA', 'TW', 'RI', 'NZ'), c(2015, 2040), 'femaleÕ)
+ALSCases(c('LY', 'US', 'UY', 'CH', 'IR', 'JA', 'TW', 'RI', 'NZ'), c(2015, 2040), 'female')
          #This will output "femaleprev.csv" containing the age-specific female prevalence rates by country, and "FemaleCases.csv" containing the number of female cases by country, year and age group to the working directory.
          
          

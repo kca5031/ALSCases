@@ -4,8 +4,8 @@ library(XML)
 
 ## Read in incidence and survival rate files on repository or see below
 
-maleinc <- read.csv("MaleIncidenceEU28.csv", sep = ",", header = TRUE, stringsAsFactors = FALSE)
-femaleinc <- read.csv("FemaleIncidenceEU28.csv", sep = ",", header = TRUE, stringsAsFactors = FALSE)
+maleinc <- read.csv("MaleIncidence.csv", sep = ",", header = TRUE, stringsAsFactors = FALSE)
+femaleinc <- read.csv("FemaleIncidence.csv", sep = ",", header = TRUE, stringsAsFactors = FALSE)
 
 ## Code:
   
